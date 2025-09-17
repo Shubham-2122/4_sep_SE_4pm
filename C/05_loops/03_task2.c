@@ -20,7 +20,7 @@ void main()
 //	}
 
 	for(i=1;i<=10;i++){
-		if( i>=3 && i<=5){
+		if(!(i>=3 && i<=5)){
 			printf("\n i : %d",i);
 		}
 //		printf("\n i : %d",i);
