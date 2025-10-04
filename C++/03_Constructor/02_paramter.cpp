@@ -39,6 +39,8 @@ class Student{
 			cout<<"\nyour rollno :"<<rollno;
 			cout<<"\nYour Name : "<<sname;
 		}
+		
+		
 };
 
 int main()
