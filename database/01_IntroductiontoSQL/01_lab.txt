@@ -1,0 +1,15 @@
+-- Create a new database named school_db 
+CREATE DATABASE school_db;
+
+-- Use the database 
+USE school_db; 
+
+-- Create a table called students 
+
+CREATE TABLE students ( 
+	student_id INT PRIMARY KEY, 
+	student_name VARCHAR(100), 
+	age INT, 
+	class VARCHAR(20), 
+	address VARCHAR(255) 
+); 
